@@ -39,7 +39,7 @@ function Category() {
                             <>
                              <div className="col-md-4 md-4" key ={value.id} >
                                 <div className="card">
-                                    <img src={value.image} className="card-img-top" alt="..."/>
+                                    <img src={value.image} className="card-img-top" alt=""/>
                                     <div className="card-body">
                                         <h5 className="card-title">{value.name}</h5>
                                         <p>Price :{value.price}</p>
